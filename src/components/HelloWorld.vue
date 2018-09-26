@@ -10,6 +10,7 @@
               <em>&mdash;John Johnson</em>
             </small>
           </footer>
+          <p>{{ msg }}</p>
         </blockquote>
       </v-layout>
     </v-slide-y-transition>
@@ -20,7 +21,8 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: String,
+    obj: Object
   }
 }
 </script>
